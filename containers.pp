@@ -1,8 +1,6 @@
 { 'webserver':
   image        => 'httpd:latest',
   ports        => ['80:80'],
-  env	       => ['APACHE_LOG_DI=R"/var/log/httpd"', 'APACHE_PID_FILE="/var/run/httpd/httpd.pid"'],
-  volumes      => ['/docker-data/www/:/usr/local/apache2/htdocs'],
   hostname     => 'webserver',
 }
 
