@@ -27,3 +27,5 @@ docker commit -p -a "Francisco Palacios" -m "Dayly Backup" $container $repo:late
 # Local Archive 
 #docker save -o $container_store_path/$container.$(date	+%F).tar $image
 
+
+
