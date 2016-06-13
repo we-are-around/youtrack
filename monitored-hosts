@@ -1,0 +1,8 @@
+object Host "around-youtrack" {
+address = "around-youtrack"	
+check_command = "hostalive"	
+}	
+#object Host "dbserver" {	
+#address = "dbserver"	
+#check_command = "hostalive"	
+#}
